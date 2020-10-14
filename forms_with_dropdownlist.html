@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Html Forms</h1>
+    <form action="thankyou.html">
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Username" required> <br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password"required> <br>
+
+        <p>Select your Gender</p>
+
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="male" value="Male"required>  <br>
+
+        <label for="female">Female</label>
+        <input type="radio" name="Gender" id="female" value="Female"required> <br> <br>
+
+        <label for="age-group" id="age-group">Select your age group</label>
+        <select name="age-group" id="age-group">
+            <option value="5-10">5-10</option>
+            <option value="10-15">10-15</option>
+            <option value="15-20">15-20</option>
+        </select><br>
+
+        <input type="submit" value="sign-in"required>
+    </form>
+</body>
+</html>
